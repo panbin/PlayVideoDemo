@@ -7,7 +7,21 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "BTVideoButtons.h"
+#import "BTVideoPlayerKit.h"
 
-@interface BTVideoPlayerKitViewController : UIViewController
+@interface BTVideoPlayerKitViewController : UIViewController {
+    BOOL playWhenReady;
+    BOOL scrubBuffering;
+    BOOL showShareOptions;
+}
+
+@property (readwrite, strong) AVPlayer *videoPlayer;
+@property (nonatomic, assign) id <BTVideoPlayerKitDelegate> delegate;
+@property (nonatomic) BOOL allowPortraitFullscreen;
+@property (nonatomic) BOOL showStaticEndTime;
+
+
+- (void)playVideoWithTitle:(NSString *)title URL:(NSURL *)url videoID:(NSString *)videoID shareURL:(NSURL *)shareURL isStreaming:(BOOL)streaming playInFullScreen:(BOOL)playInFullScreen;
 
 @end

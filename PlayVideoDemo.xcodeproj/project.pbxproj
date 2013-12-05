@@ -17,7 +17,6 @@
 		215A455718504A93005FF81D /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 215A455618504A93005FF81D /* Default@2x.png */; };
 		215A455918504A93005FF81D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 215A455818504A93005FF81D /* Default-568h@2x.png */; };
 		215A455C18504A93005FF81D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 215A455B18504A93005FF81D /* ViewController.m */; };
-		215A455F18504A93005FF81D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 215A455D18504A93005FF81D /* ViewController.xib */; };
 		215A457418504B17005FF81D /* airplay-display.png in Resources */ = {isa = PBXBuildFile; fileRef = 215A456618504B17005FF81D /* airplay-display.png */; };
 		215A457518504B17005FF81D /* airplay-display@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 215A456718504B17005FF81D /* airplay-display@2x.png */; };
 		215A457618504B17005FF81D /* fullscreen-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 215A456818504B17005FF81D /* fullscreen-button.png */; };
@@ -33,6 +32,15 @@
 		215A458018504B17005FF81D /* transparentBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 215A457218504B17005FF81D /* transparentBar.png */; };
 		215A458118504B17005FF81D /* transparentBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 215A457318504B17005FF81D /* transparentBar@2x.png */; };
 		215A458418504B87005FF81D /* BTVideoPlayerKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 215A458318504B87005FF81D /* BTVideoPlayerKitViewController.m */; };
+		215A458718504D89005FF81D /* BTVideoButtons.m in Sources */ = {isa = PBXBuildFile; fileRef = 215A458618504D89005FF81D /* BTVideoButtons.m */; };
+		215A458A18504DB2005FF81D /* AirplayActiveView.m in Sources */ = {isa = PBXBuildFile; fileRef = 215A458918504DB2005FF81D /* AirplayActiveView.m */; };
+		215A458C18504DEE005FF81D /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215A458B18504DEE005FF81D /* CoreMedia.framework */; };
+		215A458E18504DF3005FF81D /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215A458D18504DF2005FF81D /* AVFoundation.framework */; };
+		215A459018504E01005FF81D /* MediaPlayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215A458F18504E01005FF81D /* MediaPlayer.framework */; };
+		215A459318504E30005FF81D /* NSString+StringSizeWithFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 215A459218504E30005FF81D /* NSString+StringSizeWithFont.m */; };
+		215A459518504F62005FF81D /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 215A459418504F62005FF81D /* QuartzCore.framework */; };
+		215A459818505069005FF81D /* FullScreenView.m in Sources */ = {isa = PBXBuildFile; fileRef = 215A459718505069005FF81D /* FullScreenView.m */; };
+		215A459B18505086005FF81D /* FullScreenViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 215A459A18505086005FF81D /* FullScreenViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -51,7 +59,6 @@
 		215A455818504A93005FF81D /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		215A455A18504A93005FF81D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		215A455B18504A93005FF81D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		215A455E18504A93005FF81D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		215A456618504B17005FF81D /* airplay-display.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "airplay-display.png"; sourceTree = "<group>"; };
 		215A456718504B17005FF81D /* airplay-display@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "airplay-display@2x.png"; sourceTree = "<group>"; };
 		215A456818504B17005FF81D /* fullscreen-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fullscreen-button.png"; sourceTree = "<group>"; };
@@ -68,6 +75,21 @@
 		215A457318504B17005FF81D /* transparentBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "transparentBar@2x.png"; sourceTree = "<group>"; };
 		215A458218504B87005FF81D /* BTVideoPlayerKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTVideoPlayerKitViewController.h; sourceTree = "<group>"; };
 		215A458318504B87005FF81D /* BTVideoPlayerKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTVideoPlayerKitViewController.m; sourceTree = "<group>"; };
+		215A458518504D89005FF81D /* BTVideoButtons.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTVideoButtons.h; sourceTree = "<group>"; };
+		215A458618504D89005FF81D /* BTVideoButtons.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTVideoButtons.m; sourceTree = "<group>"; };
+		215A458818504DB2005FF81D /* AirplayActiveView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AirplayActiveView.h; sourceTree = "<group>"; };
+		215A458918504DB2005FF81D /* AirplayActiveView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AirplayActiveView.m; sourceTree = "<group>"; };
+		215A458B18504DEE005FF81D /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		215A458D18504DF2005FF81D /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		215A458F18504E01005FF81D /* MediaPlayer.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MediaPlayer.framework; path = System/Library/Frameworks/MediaPlayer.framework; sourceTree = SDKROOT; };
+		215A459118504E30005FF81D /* NSString+StringSizeWithFont.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+StringSizeWithFont.h"; sourceTree = "<group>"; };
+		215A459218504E30005FF81D /* NSString+StringSizeWithFont.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+StringSizeWithFont.m"; sourceTree = "<group>"; };
+		215A459418504F62005FF81D /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		215A459618505069005FF81D /* FullScreenView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullScreenView.h; sourceTree = "<group>"; };
+		215A459718505069005FF81D /* FullScreenView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullScreenView.m; sourceTree = "<group>"; };
+		215A459918505086005FF81D /* FullScreenViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FullScreenViewController.h; sourceTree = "<group>"; };
+		215A459A18505086005FF81D /* FullScreenViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FullScreenViewController.m; sourceTree = "<group>"; };
+		215A459D18505671005FF81D /* BTVideoPlayerKit.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BTVideoPlayerKit.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -75,6 +97,10 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				215A459518504F62005FF81D /* QuartzCore.framework in Frameworks */,
+				215A459018504E01005FF81D /* MediaPlayer.framework in Frameworks */,
+				215A458E18504DF3005FF81D /* AVFoundation.framework in Frameworks */,
+				215A458C18504DEE005FF81D /* CoreMedia.framework in Frameworks */,
 				215A454318504A93005FF81D /* UIKit.framework in Frameworks */,
 				215A454518504A93005FF81D /* Foundation.framework in Frameworks */,
 				215A454718504A93005FF81D /* CoreGraphics.framework in Frameworks */,
@@ -105,6 +131,10 @@
 		215A454118504A93005FF81D /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				215A459418504F62005FF81D /* QuartzCore.framework */,
+				215A458F18504E01005FF81D /* MediaPlayer.framework */,
+				215A458D18504DF2005FF81D /* AVFoundation.framework */,
+				215A458B18504DEE005FF81D /* CoreMedia.framework */,
 				215A454218504A93005FF81D /* UIKit.framework */,
 				215A454418504A93005FF81D /* Foundation.framework */,
 				215A454618504A93005FF81D /* CoreGraphics.framework */,
@@ -119,10 +149,20 @@
 				215A455218504A93005FF81D /* AppDelegate.m */,
 				215A455A18504A93005FF81D /* ViewController.h */,
 				215A455B18504A93005FF81D /* ViewController.m */,
-				215A455D18504A93005FF81D /* ViewController.xib */,
 				215A454918504A93005FF81D /* Supporting Files */,
 				215A458218504B87005FF81D /* BTVideoPlayerKitViewController.h */,
 				215A458318504B87005FF81D /* BTVideoPlayerKitViewController.m */,
+				215A458518504D89005FF81D /* BTVideoButtons.h */,
+				215A458618504D89005FF81D /* BTVideoButtons.m */,
+				215A458818504DB2005FF81D /* AirplayActiveView.h */,
+				215A458918504DB2005FF81D /* AirplayActiveView.m */,
+				215A459118504E30005FF81D /* NSString+StringSizeWithFont.h */,
+				215A459218504E30005FF81D /* NSString+StringSizeWithFont.m */,
+				215A459618505069005FF81D /* FullScreenView.h */,
+				215A459718505069005FF81D /* FullScreenView.m */,
+				215A459918505086005FF81D /* FullScreenViewController.h */,
+				215A459A18505086005FF81D /* FullScreenViewController.m */,
+				215A459D18505671005FF81D /* BTVideoPlayerKit.h */,
 			);
 			path = PlayVideoDemo;
 			sourceTree = "<group>";
@@ -217,7 +257,6 @@
 				215A455518504A93005FF81D /* Default.png in Resources */,
 				215A455718504A93005FF81D /* Default@2x.png in Resources */,
 				215A455918504A93005FF81D /* Default-568h@2x.png in Resources */,
-				215A455F18504A93005FF81D /* ViewController.xib in Resources */,
 				215A457418504B17005FF81D /* airplay-display.png in Resources */,
 				215A457518504B17005FF81D /* airplay-display@2x.png in Resources */,
 				215A457618504B17005FF81D /* fullscreen-button.png in Resources */,
@@ -246,6 +285,11 @@
 				215A455318504A93005FF81D /* AppDelegate.m in Sources */,
 				215A455C18504A93005FF81D /* ViewController.m in Sources */,
 				215A458418504B87005FF81D /* BTVideoPlayerKitViewController.m in Sources */,
+				215A458718504D89005FF81D /* BTVideoButtons.m in Sources */,
+				215A458A18504DB2005FF81D /* AirplayActiveView.m in Sources */,
+				215A459318504E30005FF81D /* NSString+StringSizeWithFont.m in Sources */,
+				215A459818505069005FF81D /* FullScreenView.m in Sources */,
+				215A459B18505086005FF81D /* FullScreenViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -258,14 +302,6 @@
 				215A454C18504A93005FF81D /* en */,
 			);
 			name = InfoPlist.strings;
-			sourceTree = "<group>";
-		};
-		215A455D18504A93005FF81D /* ViewController.xib */ = {
-			isa = PBXVariantGroup;
-			children = (
-				215A455E18504A93005FF81D /* en */,
-			);
-			name = ViewController.xib;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
