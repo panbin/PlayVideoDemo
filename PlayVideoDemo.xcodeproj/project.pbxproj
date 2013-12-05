@@ -18,6 +18,21 @@
 		215A455918504A93005FF81D /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 215A455818504A93005FF81D /* Default-568h@2x.png */; };
 		215A455C18504A93005FF81D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 215A455B18504A93005FF81D /* ViewController.m */; };
 		215A455F18504A93005FF81D /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 215A455D18504A93005FF81D /* ViewController.xib */; };
+		215A457418504B17005FF81D /* airplay-display.png in Resources */ = {isa = PBXBuildFile; fileRef = 215A456618504B17005FF81D /* airplay-display.png */; };
+		215A457518504B17005FF81D /* airplay-display@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 215A456718504B17005FF81D /* airplay-display@2x.png */; };
+		215A457618504B17005FF81D /* fullscreen-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 215A456818504B17005FF81D /* fullscreen-button.png */; };
+		215A457718504B17005FF81D /* fullscreen-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 215A456918504B17005FF81D /* fullscreen-button@2x.png */; };
+		215A457818504B17005FF81D /* minimize-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 215A456A18504B17005FF81D /* minimize-button.png */; };
+		215A457918504B17005FF81D /* minimize-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 215A456B18504B17005FF81D /* minimize-button@2x.png */; };
+		215A457A18504B17005FF81D /* pause-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 215A456C18504B17005FF81D /* pause-button.png */; };
+		215A457B18504B17005FF81D /* pause-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 215A456D18504B17005FF81D /* pause-button@2x.png */; };
+		215A457C18504B17005FF81D /* play-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 215A456E18504B17005FF81D /* play-button.png */; };
+		215A457D18504B17005FF81D /* play-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 215A456F18504B17005FF81D /* play-button@2x.png */; };
+		215A457E18504B17005FF81D /* share-button.png in Resources */ = {isa = PBXBuildFile; fileRef = 215A457018504B17005FF81D /* share-button.png */; };
+		215A457F18504B17005FF81D /* share-button@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 215A457118504B17005FF81D /* share-button@2x.png */; };
+		215A458018504B17005FF81D /* transparentBar.png in Resources */ = {isa = PBXBuildFile; fileRef = 215A457218504B17005FF81D /* transparentBar.png */; };
+		215A458118504B17005FF81D /* transparentBar@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 215A457318504B17005FF81D /* transparentBar@2x.png */; };
+		215A458418504B87005FF81D /* BTVideoPlayerKitViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 215A458318504B87005FF81D /* BTVideoPlayerKitViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +52,22 @@
 		215A455A18504A93005FF81D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		215A455B18504A93005FF81D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		215A455E18504A93005FF81D /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		215A456618504B17005FF81D /* airplay-display.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "airplay-display.png"; sourceTree = "<group>"; };
+		215A456718504B17005FF81D /* airplay-display@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "airplay-display@2x.png"; sourceTree = "<group>"; };
+		215A456818504B17005FF81D /* fullscreen-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fullscreen-button.png"; sourceTree = "<group>"; };
+		215A456918504B17005FF81D /* fullscreen-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "fullscreen-button@2x.png"; sourceTree = "<group>"; };
+		215A456A18504B17005FF81D /* minimize-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minimize-button.png"; sourceTree = "<group>"; };
+		215A456B18504B17005FF81D /* minimize-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "minimize-button@2x.png"; sourceTree = "<group>"; };
+		215A456C18504B17005FF81D /* pause-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause-button.png"; sourceTree = "<group>"; };
+		215A456D18504B17005FF81D /* pause-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "pause-button@2x.png"; sourceTree = "<group>"; };
+		215A456E18504B17005FF81D /* play-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-button.png"; sourceTree = "<group>"; };
+		215A456F18504B17005FF81D /* play-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "play-button@2x.png"; sourceTree = "<group>"; };
+		215A457018504B17005FF81D /* share-button.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-button.png"; sourceTree = "<group>"; };
+		215A457118504B17005FF81D /* share-button@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "share-button@2x.png"; sourceTree = "<group>"; };
+		215A457218504B17005FF81D /* transparentBar.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = transparentBar.png; sourceTree = "<group>"; };
+		215A457318504B17005FF81D /* transparentBar@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "transparentBar@2x.png"; sourceTree = "<group>"; };
+		215A458218504B87005FF81D /* BTVideoPlayerKitViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BTVideoPlayerKitViewController.h; sourceTree = "<group>"; };
+		215A458318504B87005FF81D /* BTVideoPlayerKitViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BTVideoPlayerKitViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -57,6 +88,7 @@
 			isa = PBXGroup;
 			children = (
 				215A454818504A93005FF81D /* PlayVideoDemo */,
+				215A456518504B17005FF81D /* Resouces */,
 				215A454118504A93005FF81D /* Frameworks */,
 				215A454018504A93005FF81D /* Products */,
 			);
@@ -89,6 +121,8 @@
 				215A455B18504A93005FF81D /* ViewController.m */,
 				215A455D18504A93005FF81D /* ViewController.xib */,
 				215A454918504A93005FF81D /* Supporting Files */,
+				215A458218504B87005FF81D /* BTVideoPlayerKitViewController.h */,
+				215A458318504B87005FF81D /* BTVideoPlayerKitViewController.m */,
 			);
 			path = PlayVideoDemo;
 			sourceTree = "<group>";
@@ -105,6 +139,27 @@
 				215A455818504A93005FF81D /* Default-568h@2x.png */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		215A456518504B17005FF81D /* Resouces */ = {
+			isa = PBXGroup;
+			children = (
+				215A456618504B17005FF81D /* airplay-display.png */,
+				215A456718504B17005FF81D /* airplay-display@2x.png */,
+				215A456818504B17005FF81D /* fullscreen-button.png */,
+				215A456918504B17005FF81D /* fullscreen-button@2x.png */,
+				215A456A18504B17005FF81D /* minimize-button.png */,
+				215A456B18504B17005FF81D /* minimize-button@2x.png */,
+				215A456C18504B17005FF81D /* pause-button.png */,
+				215A456D18504B17005FF81D /* pause-button@2x.png */,
+				215A456E18504B17005FF81D /* play-button.png */,
+				215A456F18504B17005FF81D /* play-button@2x.png */,
+				215A457018504B17005FF81D /* share-button.png */,
+				215A457118504B17005FF81D /* share-button@2x.png */,
+				215A457218504B17005FF81D /* transparentBar.png */,
+				215A457318504B17005FF81D /* transparentBar@2x.png */,
+			);
+			path = Resouces;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -163,6 +218,20 @@
 				215A455718504A93005FF81D /* Default@2x.png in Resources */,
 				215A455918504A93005FF81D /* Default-568h@2x.png in Resources */,
 				215A455F18504A93005FF81D /* ViewController.xib in Resources */,
+				215A457418504B17005FF81D /* airplay-display.png in Resources */,
+				215A457518504B17005FF81D /* airplay-display@2x.png in Resources */,
+				215A457618504B17005FF81D /* fullscreen-button.png in Resources */,
+				215A457718504B17005FF81D /* fullscreen-button@2x.png in Resources */,
+				215A457818504B17005FF81D /* minimize-button.png in Resources */,
+				215A457918504B17005FF81D /* minimize-button@2x.png in Resources */,
+				215A457A18504B17005FF81D /* pause-button.png in Resources */,
+				215A457B18504B17005FF81D /* pause-button@2x.png in Resources */,
+				215A457C18504B17005FF81D /* play-button.png in Resources */,
+				215A457D18504B17005FF81D /* play-button@2x.png in Resources */,
+				215A457E18504B17005FF81D /* share-button.png in Resources */,
+				215A457F18504B17005FF81D /* share-button@2x.png in Resources */,
+				215A458018504B17005FF81D /* transparentBar.png in Resources */,
+				215A458118504B17005FF81D /* transparentBar@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +245,7 @@
 				215A454F18504A93005FF81D /* main.m in Sources */,
 				215A455318504A93005FF81D /* AppDelegate.m in Sources */,
 				215A455C18504A93005FF81D /* ViewController.m in Sources */,
+				215A458418504B87005FF81D /* BTVideoPlayerKitViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
