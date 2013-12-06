@@ -144,7 +144,7 @@ NSString * const kTrackEventVideoComplete = @"Video Complete";
     
     self.view.backgroundColor = [UIColor yellowColor];
     
-    _videoButtons = [[BTVideoButtons alloc] initWithFrame:CGRectMake(0, 0, 320, 200)];
+    _videoButtons = [[BTVideoButtons alloc] initWithFrame:CGRectZero];
     _videoButtons.backgroundColor = [UIColor redColor];
     [self.view addSubview:_videoButtons];
     
@@ -181,6 +181,11 @@ NSString * const kTrackEventVideoComplete = @"Video Complete";
     } else {
         [[UIApplication sharedApplication] setStatusBarHidden:NO withAnimation:UIStatusBarAnimationNone];
     }
+}
+
+- (void)viewDidLayoutSubviews {
+    [super viewDidLayoutSubviews];
+    _videoButtons.frame = CGRectMake(0, 0, 320, 200);
 }
 
 #pragma makr -
@@ -225,7 +230,7 @@ NSString * const kTrackEventVideoComplete = @"Video Complete";
     
     if (playInFullScreen) {
         self.isAlwaysFullscreen = YES;
-        [self launchFullScreen];
+//        [self launchFullScreen];
     }
 }
 
@@ -424,6 +429,10 @@ NSString * const kTrackEventVideoComplete = @"Video Complete";
                                  }
                                  
                                  [self.videoButtons removeFromSuperview];
+                                 
+                                 [self showControls];
+                                 self.videoButtons.frame = CGRectMake(0, 0, 320, 200);
+                                 [self.view addSubview:self.videoButtons];
                              }];
         } else {
             [UIView animateWithDuration:0.45f
@@ -439,7 +448,9 @@ NSString * const kTrackEventVideoComplete = @"Video Complete";
                              }];
             
             [self.videoButtons removeFromSuperview];
-            //[self.containingViewController.view addSubview:self.videoButtons];
+            
+            self.videoButtons.frame = CGRectMake(0, 0, 320, 200);
+            [self.view addSubview:self.videoButtons];
         }
         
         
